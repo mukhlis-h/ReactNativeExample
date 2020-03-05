@@ -1,9 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TextInput } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <TextInput value="My Name" />
       <Text>Welcome to CI/CD Course!</Text>
     </View>
   );
